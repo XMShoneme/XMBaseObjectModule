@@ -10,4 +10,6 @@
 
 @interface BaseNavigationViewController : UINavigationController
 
+@property (nonatomic,assign) BOOL canDragBack;
+
 @end
